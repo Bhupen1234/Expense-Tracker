@@ -1,0 +1,121 @@
+.wallet-expense-container{
+    background-color: rgba(98, 98, 98, 1);
+    height: 269px;
+    width: 97vw;
+    border-radius: 10px;
+}
+
+.wallet-conatiner{
+   background-color: rgba(155, 155, 155, 1);
+   border-radius: 15px;
+   margin: 40px;
+   padding: 20px;
+   min-width: 300px;
+   border-radius: 12px;
+
+}
+
+
+
+.expense-container{
+    background-color: rgba(155, 155, 155, 1);
+   border-radius: 15px;
+   margin: 40px;
+   padding: 20px;
+   min-width: 300px;
+   border-radius: 12px;
+}
+
+
+.expense-container , .wallet-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wallet-income-expense-container{
+    width: 50%;
+    display: flex;
+}
+
+
+.add-income-button{
+    width: 60%;
+    margin: 10px auto;
+    height: 50px;
+    background-color: rgba(181, 220, 82, 1);
+    cursor: pointer;
+    
+    border-radius: 25px;
+    border: none;
+
+
+}
+
+.add-expense-button{
+    width: 60%;
+    margin: 10px auto;
+    height: 50px;
+    background-color: rgba(255, 56, 56, 1);
+    cursor: pointer;
+    border-radius: 25px;
+    border: none;
+}
+
+
+
+
+.modal-form-wallet{
+    display: flex;
+    gap: 8px;
+}
+
+.modal-form-wallet>input{
+    width: 40%;
+    height: 51px;
+    border-radius: 15px;
+    border: none;
+}
+
+.modal-wallet-buttons{
+    width: 60%;
+}
+
+.modal-wallet-buttons>button{
+    background-color: rgba(217, 217, 217, 1);
+    width: 40%;
+    border-radius: 15px;
+    height: 51px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: none;
+     
+}
+
+
+.modal-form-expenses>input,select{
+    height: 51px;
+    border-radius: 15px;
+    border: none;
+}
+
+
+.modal-form-expenses{
+    display: flex;
+    gap: 8px;
+   flex-wrap: wrap;
+
+}
+
+.modal-form-expenses>button{
+    background-color: rgba(217, 217, 217, 1);
+    width: 20%;
+    border-radius: 15px;
+    height: 51px;
+    margin-left: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+
